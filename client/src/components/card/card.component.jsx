@@ -2,8 +2,10 @@ import './card.styles.css';
 
 function Card() {
   return (
-    <div>
-      <p>Estas en el Card Page, master!!</p>
+    <div className='card-container'>
+      <h2>Name:</h2>
+      <p>Email:</p>
+      <p>Phone:</p>
     </div>
   );
 }

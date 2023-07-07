@@ -3,7 +3,7 @@ import './create.styles.css';
 function Create() {
   return (
     <div>
-      <p>Estas en el Create Page, master!!</p>
+      <p>CREATE CREATE</p>
     </div>
   );
 }

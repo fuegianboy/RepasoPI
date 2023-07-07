@@ -5,10 +5,10 @@ import './home.styles.css';
 
 function Home() {
   return (
-    <div>
-      <p>Esta es la HomePage, master!!</p>
-      {/* <Navbar/> */}
-      {/* <Cards/> */}
+    <div className='home'>
+      <h2 className='home-title'>Home de home</h2>
+      <Navbar/>
+      <Cards/>
     </div>
   );
 }

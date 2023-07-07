@@ -2,8 +2,11 @@ import './navbar.styles.css';
 
 function Navbar() {
   return (
-    <div>
-      <p>Estas en el Navbar  Page, master!!</p>
+    <div className='search-box'>
+      <form>
+        <input placeholder='Busqueda...'></input>
+        <button>Buscar</button>
+      </form>
     </div>
   );
 }

@@ -3,9 +3,12 @@ import './cards.styles.css';
 
 function Cards() {
   return (
-    <div>
-        <p>jajajajaja</p>
-      {/* <Card/> */}
+    <div className="card-list">
+        {/* <p>Esta es CARDS  que contiene 2 CARD</p> */}
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
     </div>
   );
 }
